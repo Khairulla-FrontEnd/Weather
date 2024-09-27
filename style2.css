@@ -1,0 +1,105 @@
+*{padding:0;margin:0;box-sizing:border-box;}body{font-family: 'Inter','sans-serif';}ul,li{list-style:none;}button{cursor:pointer;}a{text-decoration:none;
+color:inherit;}header{background-color:#D2982D;}.header__link:hover,.header__logo:hover{color:black;cursor:pointer;text-decoration:underline;}
+.container__css{width:100%;max-width:1440px;margin:0 auto;}.header__logo{font-size:25px;font-weight:600;
+color:white; transition:0.6s;}.header__link{font-size:16px;font-weight:500;color:white;transition:0.6s;}.bi-search{font-size:20px;color:white;}.bi-search:hover{background-color:white;padding:5px;border-radius:50%;}
+.header__logo:active,.header__link:active{color:grey;}.header__list{display:flex;justify-content:center;align-items:center;gap:18px;transition:0.6s;}
+.header__top{display:flex;justify-content:center;align-items:center;gap:975px;padding-block:18px 70px;}
+.pattern span{width:30px;height:4px;background-color:white;}.pattern{display:flex;justify-content:center;
+align-items:center;flex-direction:column;gap:5px;display:none;cursor:pointer;}.pattern:hover span{background-color:black;}
+.pattern:active span{background-color:white;}.open span{width:30px;height:4px;background-color:white;}.open{justify-content:center;align-items:center;flex-direction:column;gap:5px;display:none;cursor:pointer;}
+.open span:nth-child(2){display:none;}.open span:first-child{transform:rotate(45deg);transition:0.6s;}.open span:last-child{transform:rotate(-45deg);position:relative;top:-8px}
+@media(max-width:1350px){
+.header__top{
+gap:700px;
+transition:0.6s;
+}
+}@media(max-width:1080px){
+.header__list{display:none;}
+.header__top{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:0px;}
+.show{display:flex;transition:0.6s;}
+.pattern{display:flex;order:1;transition:0.6s;}
+}
+@media(max-width:427px){
+.show i{display:none;}
+}
+.bgmac{background-image:url('img(Shop)/Macbook Pro Mockup (15 inch).png');
+background-repeat:no-repeat;background-size:contain;background-position:110px;}
+.header__bottom{height:700px;
+display:flex;gap:620px;}.pattern1 img{padding-top:20px;}
+.pattern1 strong{color:white;line-height:19.36px;border:2px solid white;height:60px;border-radius:3px;width:160px;text-align:center;padding-top:10px;}
+.pattern1{display:flex;flex-direction:row-reverse;}
+.pattern2{display:flex;flex-direction:row-reverse;}
+.pattern2 strong{color:white;line-height:19.36px;border:2px solid white;height:60px;border-radius:3px;width:180px;text-align:center;padding-top:10px;}
+.pattern3 strong{color:white;line-height:19.36px;border:2px solid white;height:60px;border-radius:3px;width:160px;text-align:center;padding-top:10px;}
+.pattern3{display:flex;}.pattern3 img{padding-top:30px;}.pattern4 img{padding-top:20px;}
+.pattern4 strong{color:white;line-height:19.36px;border:2px solid white;height:75px;border-radius:3px;width:160px;text-align:center;padding-top:8px;}
+.pattern4{display:flex;}.lala{width:90px;height:4px;}.pattern__first__row{display:flex;justify-content:center;flex-direction:column;gap:200px;}
+.pattern__second__row{display:flex;justify-content:center;flex-direction:column;gap:200px;padding-bottom:50px;}strong:hover{color:black;cursor:pointer;}
+@media(max-width:1400px){
+.header__bottom{gap:550px;}
+}
+@media(max-width:1254px){
+.header__bottom{gap:520px;}
+}
+@media(max-width:1199px){
+.header__bottom{gap:400px;}
+.pattern__second__row{gap:100px;}
+}
+@media(max-width:1129px){
+.header__bottom{gap:350px;}
+}
+@media(max-width:1040px){
+.header__bottom{gap:300px;}
+}
+@media(max-width:993px){
+.header__bottom{gap:100px;}
+.pattern__second__row{gap:0px;padding-right:16px;}
+.bgmac{background-size:600px,400px}
+.pattern3 strong{width:100px;padding:0;}
+.pattern4 strong{width:100px}
+}
+@media(max-width:775px){
+.pattern1 img,.pattern2 img,.pattern3 img,.pattern4 img{width:80px;}
+.container{max-width:600px;}
+.bgmac{background-size:600px,300px;background-position:10px;}
+.header__bottom{gap:0px;}
+.pattern__second__row{padding-bottom:180px;}
+.pattern__first__row{gap:50px;}
+}
+@media(max-width:478px){
+.pattern1 img,.pattern2 img,.pattern3 img,.pattern4 img{width:50px;}
+}
+@media(max-width:446px){
+.pattern1 strong,.pattern2 strong{height:86px;}
+.pattern1 strong,.pattern2 strong,.pattern3 strong,.pattern4 strong{width:80px;font-size:10px;}
+.pattern1 img,.pattern2 img,.pattern3 img,.pattern4 img{width:60px;}
+.bgmac{background-size:400px;background-position:20px 100px;}
+.header__bottom{padding-bottom:180px;}
+}
+.bgsun img{width:100%;}
+
+.weather__card1__img{width:65px;height:65px;}.weather__card1__text p{color:white;text-align:center;padding-bottom:40px;}.weather__card1{width:275px;height:260px;display:flex;flex-direction:column;justify-content:center;
+align-items:center;}.weather__card2__img{width:65px;height:65px;margin-left:60px;}.weather__card2__text{color:white;text-align:center;margin-left:50px;}.weather__card2{width:275px;height:260px;display:flex;flex-direction:column;justify-content:center;
+align-items:center;margin-top:200px;}.weather__card3__img{width:65px;height:65px;margin-left:20px;}.weather__card3__text{color:white;text-align:center;}.weather__card3{width:275px;height:260px;display:flex;flex-direction:column;justify-content:center;
+align-items:center;}.weather__card4__img{width:65px;height:65px;}.weather__card4__text{color:white;text-align:center;padding-bottom:10px;}.weather__card4{width:275px;height:260px;display:flex;flex-direction:column;
+justify-content:center;align-items:center;margin-top:200px;}.weather__cards{display:flex;justify-content:center;}.weather__cards2{display:none;justify-content:center;}
+@media (max-width:1024px){
+.weather__card2,.weather__card4{
+margin:0;
+}
+.weather__cards{
+flex-wrap:wrap;
+}
+}
+
+@media (max-width:574px){
+.weather__cards{display:none;justify-content:center;}
+.weather__cards2{display:flex;justify-content:center;}
+.swiper-slide{display:flex;flex-direction:column;gap:40px;}
+.weather__card2{width:300px;height:300px;}
+}
+.footer__top{padding-top:250px;}footer{padding-bottom:60px;}
